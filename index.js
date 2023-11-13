@@ -7,5 +7,5 @@ app.listen(port,()=>{
 })
 
 app.get('/',(req,res)=>{
-    res.json("Nodejs to jenkins")
+    res.json("Nodejs to jenkins in pipeline")
 })
