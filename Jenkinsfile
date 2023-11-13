@@ -4,7 +4,7 @@ pipeline{
         stage('Clone')
         {
             steps{
-                'git': 'https://github.com/quachtohai/nodejs.git'
+                git 'https://github.com/quachtohai/nodejs.git'
             }
         }
     }
